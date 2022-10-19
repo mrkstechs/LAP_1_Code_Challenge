@@ -1,0 +1,103 @@
+@import url('http://fonts.cdnfonts.com/css/google-sans');
+body {
+    background-color: rgb(39, 39, 39);
+    margin: 0;
+}
+
+main {
+    border-top: 1px solid white;
+}
+
+header {
+    display: flex;
+    padding: 20px;
+
+}
+
+#logo {
+    width: 100px;
+    margin-right: 20px;
+}
+
+#input-wrapper img {
+    width: 20px;
+}
+
+#input-wrapper{
+    background-color: rgb(65, 65, 65);
+    width: 400px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+}
+
+form input {
+    border: none;
+    width: 350px;
+    background-color: rgb(65, 65, 65);
+    margin-right: 5px;;
+}
+
+#results {
+    color: rgb(155, 155, 155);
+    margin-left: 10px;
+}
+
+.site {
+    margin-top: 10px;;
+    width: 500px;
+    display: grid;
+    grid-template-areas: 
+    "url url"
+    "title title"
+    "img desc" ;
+    gap: 5px;
+    margin-left: 100px;
+    font-family: 'Product Sans', sans-serif;
+}
+
+.site .desc {
+    grid-area: desc;
+    margin: 0;
+}
+
+.site .url {
+    margin: 0;
+    grid-area: url;
+    
+}
+
+.site .url a {
+    color: rgb(175, 175, 175);
+}
+
+.site h3 a {
+    color:dodgerblue;
+}
+
+.site a {
+    text-decoration: none;
+    
+}
+
+.site img {
+    width: 100px;
+}
+
+.site h3 {
+    margin: 0;
+    grid-area: title;
+}
+
+p {
+    color: white;
+}
+
+footer {
+    background-color: rgb(22, 22, 22);
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
