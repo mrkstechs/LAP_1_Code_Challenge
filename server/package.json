@@ -1,0 +1,24 @@
+{
+  "name": "fp_lap_1_rebuild_google",
+  "version": "1.0.0",
+  "description": "Rebuild Google!",
+  "main": "server.js",
+  "scripts": {
+    "test": "jest --watchAll",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mrkstechs/LAP_1_Code_Challenge.git"
+  },
+  "author": "Kelechi Okoli, Bradley Gichangi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mrkstechs/LAP_1_Code_Challenge/issues"
+  },
+  "homepage": "https://github.com/mrkstechs/LAP_1_Code_Challenge#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2"
+  }
+}
