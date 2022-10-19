@@ -9,6 +9,7 @@ HTML
 - Created new HTML file for searches
 - Created basic elements
 - Moved elements in to an ordered structure
+- Created elements to test styling
 
 CSS
 - Added image asset
@@ -16,3 +17,4 @@ CSS
 - Styled input
 - Styled buttons
 - Created new CSS file for search.html
+- Styled testing elements to fit expectations

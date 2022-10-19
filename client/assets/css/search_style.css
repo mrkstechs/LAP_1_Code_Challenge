@@ -1,0 +1,68 @@
+body {
+    background-color: rgb(39, 39, 39);
+    margin: 0;
+}
+
+main {
+    border-top: 1px solid white;
+}
+
+header {
+    display: flex;
+    padding: 20px;
+
+}
+
+#logo {
+    width: 100px;
+    margin-right: 20px;
+}
+
+#input-wrapper img {
+    width: 20px;
+}
+
+#input-wrapper{
+    background-color: rgb(65, 65, 65);
+    width: 400px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+}
+
+form input {
+    border: none;
+    width: 350px;
+    background-color: rgb(65, 65, 65);
+    margin-right: 5px;;
+}
+
+#results {
+    color: rgb(155, 155, 155);
+    margin-left: 10px;
+}
+
+.site {
+    width: 500px;
+}
+
+.site p {
+    margin: 0;
+}
+
+.site h3 {
+    margin: 0;
+}
+
+p {
+    color: white;
+}
+
+footer {
+    background-color: rgb(22, 22, 22);
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
