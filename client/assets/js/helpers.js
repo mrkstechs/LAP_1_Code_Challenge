@@ -14,14 +14,14 @@ class Site {
 
     static randomResult () {
         const allSites = sitesArray.map(obj => new Site(obj))
-        return allQuotes[Math.floor(Math.random() * allQuotes.length)]
+        return allSites[Math.floor(Math.random() * allSites.length)]
 
     }
 }
 
 let main = document.querySelector('main')
 
-for (let i; i < sitesArray.length; i++){
+for (let i = 0; i < sitesArray.length; i++){
     let div = document.createElement('div')
     div.className = 'site'
 
