@@ -1,6 +1,9 @@
+@import url('http://fonts.cdnfonts.com/css/google-sans');
+
 body {
     background-color: rgb(39, 39, 39);
     margin: 0;
+    font-family: 'Product Sans', sans-serif;
 }
 
 nav ul {
@@ -33,6 +36,7 @@ form input {
     height: 30px;
     border: 0;
     margin-left: 10px;
+    color: white;
 }
 
 #input-wrapper {
@@ -49,6 +53,7 @@ form input {
     width: 20px;
 }
 
+
 .button {
     margin: 10px;
     border: none;
@@ -56,6 +61,8 @@ form input {
     background-color: rgb(65, 65, 65);
     color: white;
     padding: 10px;
+    cursor: pointer;
+    border: 1px solid transparent;
 }
 
 p {
@@ -69,8 +76,19 @@ footer {
     width: 100%;
 }
 
-form div :hover {
+form :hover + input{
     background-color: rgb(65, 65, 65);
-    border: none;
+}
+
+form :hover {
+    background-color: rgb(65, 65, 65);
+}
+
+#buttons :hover {
+    border: 1px solid white;
+}
+
+* :focus {
+    outline: none;
 }
 
