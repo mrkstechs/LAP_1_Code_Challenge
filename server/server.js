@@ -15,9 +15,10 @@ app.use(express.static(path.join(__dirname, '../client/assets')))
 
 app.get('/', (req, res) => res.sendFile(path.join(__dirname, '../client/index.html')))
 
-app.get('/results', async (req, res) => {
-    res.send(await getData(req.query.term))
+app.get('/results', async (req, res) => res.sendFile(path.join(__dirname, '../client/results.html')))
 
+app.get('/api/search', async (req, res) => {
+    res.send(await getData(req.query.q))
 })
 
 app.listen(port, (err) => {
