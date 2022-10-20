@@ -5,6 +5,15 @@ const query = URL.substring(indexOf + 2)
 
 let searchTime, resAmount, sitesArray
 
+const userQuery = document.querySelector('#search-bar')
+const searchIcon = document.querySelector('#input-wrapper a')
+searchIcon.addEventListener('click', e => {
+    e.preventDefault()
+    let query = userQuery.value
+    window.location.href = `/results?q=${query}`
+})
+
+
 const displayResultsInfo= async (q) => {
     await fetch(`/api/search?q=${q}`)
             .then(res => data = res.json())
