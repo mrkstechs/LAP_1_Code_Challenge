@@ -10,8 +10,15 @@ searchBtn.addEventListener('click', e => {
     window.location.href = `/results?q=${query}`
 })
 
-luckyBtn.addEventListener('click', e => {
+luckyBtn.addEventListener('click', async (e) => {
     e.preventDefault()
     let query = userQuery.value
-    window.location.href = `/results?q=${query}`
+    await fetch(`/api/search?q=${query}`)
+            .then(res => data = res.json())
+            .then(data => {
+                let arr = data.items
+                window.location.href = arr[Math.floor(Math.random() * arr.length)].link
+                
+            })
+    //
 })
