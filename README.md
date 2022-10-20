@@ -10,7 +10,7 @@
 ## Usage
 
 - Run npm start while in server folder to launch server
-- Open index.html live to be able to view webpage
+- ctrl + click to follow link in terminal
 
 ## Front End
 
