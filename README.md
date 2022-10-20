@@ -2,6 +2,14 @@
 ---
 ## Front End
 
+How to run
+
+cd server
+
+npm install
+
+npm start
+
 ###  Changelog (Bradley)
 
 HTML
@@ -20,3 +28,7 @@ CSS
 - Styled buttons
 - Created new CSS file for search.html
 - Styled testing elements to fit expectations
+
+JS 
+- Created loop to create elements to be displayed for results
+- Fetched data and stored in local variables
