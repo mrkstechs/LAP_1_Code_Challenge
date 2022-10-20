@@ -1,3 +1,5 @@
 */node_modules
 */AppDataRoamingnpm-cache
 */package-lock.json
+*/.env
+
