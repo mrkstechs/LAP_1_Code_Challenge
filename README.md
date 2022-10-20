@@ -2,6 +2,14 @@
 ---
 ## Front End
 
+How to run
+
+cd server
+
+npm install
+
+npm start
+
 ###  Changelog (Bradley)
 
 HTML
