@@ -8,7 +8,10 @@ const getData = async (query) => {
     await axios(`https://customsearch.googleapis.com/customsearch/v1?key=${apiKey}&cx=${cx}&q=${query}`)
     .then(res => {
         data = {
-            searchInformation: res.data.searchInformation,
+            searchInformation: {
+                searchTime: res.data.searchInformation.formattedSearchTime,
+                totalResults: res.data.searchInformation.formattedTotalResults
+            },
             items: res.data.items
         }
     })
