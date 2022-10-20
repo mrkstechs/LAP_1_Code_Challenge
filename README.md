@@ -6,6 +6,7 @@
 - Clone / Download the repo
 - Navigate to server folder
 - Run npm install
+- .env file not included for security but needed to run the site
 
 ## Usage
 
